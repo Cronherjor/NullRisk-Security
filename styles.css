@@ -59,6 +59,11 @@ button { background: #16a34a; color: white; padding: 14px; border: none; border-
 .fade-up.visible { opacity: 1; transform: translateY(0); }
 
 @media (max-width: 480px) {
-  .whatsapp-btn span { display: none; }
-  .whatsapp-btn { padding: 15px; border-radius: 50%; }
+  .whatsapp-btn span { 
+    display: inline; /* Esto hace que el texto "¿Ayuda urgente?" sea visible en el celular */
+  } 
+  .whatsapp-btn { 
+    padding: 12px 20px; 
+    border-radius: 50px; /* Esto le devuelve la forma alargada y profesional */
+  }
 }

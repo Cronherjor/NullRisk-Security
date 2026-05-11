@@ -14,8 +14,8 @@ function handleSubmit(e) {
   btn.disabled = true;
 
   // Reemplaza con tus IDs reales de EmailJS
-  const serviceID = "TU_SERVICE_ID"; 
-  const templateID = "TU_TEMPLATE_ID";
+  const serviceID = "service_232tqrb"; 
+  const templateID = "template_0vla1eg";
 
   emailjs.sendForm(serviceID, templateID, e.target)
     .then(() => {
